@@ -1214,6 +1214,10 @@ body.lock {
     font-size: 14px;
   }
 
+  .header {
+    min-height: 80px;
+  }
+
   .header__menu {
     min-height: 80px;
   }
