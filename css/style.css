@@ -968,7 +968,6 @@ body.lock {
   border-radius: 4px;
   width: 230px;
   height: 35px;
-  outline: 0;
   padding: 0 10px;
 }
 
@@ -1048,6 +1047,7 @@ body.lock {
   transition: all 0.3s ease-out;
   opacity: 0;
   z-index: 8;
+  visibility: hidden;
 }
 
 .popup__select-input {
@@ -1098,6 +1098,7 @@ body.lock {
 
 .popup__select[data-state="active"] .popup__select-content {
   opacity: 1;
+  visibility: visible;
 }
 
 .popup__select[data-state="active"] .popup__select-label + .popup__select-input + .popup__select-label {
